@@ -23,7 +23,7 @@ class Window:
         self.width = width
         self.height = height
         self.__root = Tk()
-        self.__root.title("My Window")
+        self.__root.title("Maze Solver")
         self.__root.geometry(f"{self.width}x{self.height}")
         self.__canvas = Canvas(
             self.__root, bg="white", width=self.width, height=self.height
