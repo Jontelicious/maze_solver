@@ -1,4 +1,5 @@
 import unittest
+
 from main import Maze
 
 
@@ -15,3 +16,7 @@ class Tests(unittest.TestCase):
             len(m1._Maze__cells[0]),
             num_rows,
         )
+
+
+if __name__ == "__main__":
+    unittest.main()
