@@ -1,0 +1,4 @@
+# Initial project dependencies for maze_solver
+numpy
+networkx
+pytest

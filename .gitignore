@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# pytest and test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# editor and OS
+.vscode/
+.DS_Store
+
